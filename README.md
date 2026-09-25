@@ -20,11 +20,11 @@ git init
 git add .
 git commit -m "Memora legal and support pages"
 git branch -M main
-git remote add origin https://github.com/cy-crypto/memora-site.git
+git remote add origin https://github.com/cy-crypto/-memora-site.git
 git push -u origin main
 ```
 
-Create the `memora-site` repo on GitHub first (public — Pages needs it public on
+Create the `-memora-site` repo on GitHub first (public — Pages needs it public on
 the free plan, and these pages are meant to be public anyway). Then:
 
 **Settings → Pages → Source: Deploy from a branch → `main` / `(root)` → Save.**
@@ -32,9 +32,9 @@ the free plan, and these pages are meant to be public anyway). Then:
 Live a minute or two later at:
 
 ```
-https://cy-crypto.github.io/memora-site/
-https://cy-crypto.github.io/memora-site/privacy.html
-https://cy-crypto.github.io/memora-site/terms.html
+https://cy-crypto.github.io/-memora-site/
+https://cy-crypto.github.io/-memora-site/privacy.html
+https://cy-crypto.github.io/-memora-site/terms.html
 ```
 
 Those exact URLs are already wired into `memora/src/config.ts`. If you change the
